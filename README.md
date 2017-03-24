@@ -6,7 +6,7 @@ docker create \
   --name=phlex \
   -v <path to data>:/config \
   -e PGID=<gid> -e PUID=<uid>  \
-  -e TZ=<timezone> -p 80:80 \
+  -e TZ=<timezone> -p 80:8080 \
   d8ahazard/phlex
 ```
 
